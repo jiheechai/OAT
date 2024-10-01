@@ -155,7 +155,7 @@ export const data = [
     src: [j1, j2, j3, j4],
     price: 53000,
     color: "클라우디",
-    category: [{ tag: "bestitem" }, { tag: "TOP" }],
+    category: [{ tag: "TOP" }],
   },
   {
     id: 11,

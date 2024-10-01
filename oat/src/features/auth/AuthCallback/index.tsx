@@ -25,14 +25,7 @@ const AuthCallback = () => {
 
           console.log(response.data.user);
           console.log("로그인 성공:", response.data);
-          // 카카오 로그인 성공 후, 사용자 정보 저장
-          // const { nickname, profile_image_url } =
-          //   response.data.user.kakao_account.profile;
 
-          // setUserData({
-          //   nickname: nickname,
-          //   profile_image_url: profile_image_url,
-          // });
           // 로그인 성공 후, 세션 정보를 가져옴
           const sessionResponse = await fetch(
             "http://localhost:5000/auth/session",
